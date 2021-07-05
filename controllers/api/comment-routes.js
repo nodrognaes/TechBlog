@@ -9,7 +9,7 @@ router.post('/', withAuth, async (req, res) => {
       comment_text: req.body.comment_text,
       post_id: req.body.post_id,
       // TODO: SET USERID TO SESSION LOGGEDIN USERID
-      user_id: req.session.user_id
+      userId: req.session.userId
     });
     res.json(newComment);
   } catch (err) {
