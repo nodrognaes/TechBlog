@@ -2,7 +2,7 @@
 
 ## What it is: ##
 
-
+This is a CMS-style blog site where a user can create an account to publish articles, blog posts, thoughts and opinions. 
 
 ## How to use: ##
 
